@@ -1,10 +1,10 @@
 class Main {
-  
   public static void main(String[] args) {
+
     Carpeta d1 = new Carpeta("C:");
-    Carpeta d2 = new Carpeta("Carpeta 1");
-    Carpeta d3 = new Carpeta("Carpeta 3");
-    Carpeta d4 = new Carpeta("Carpeta 2");
+    Carpeta d2 = new Carpeta("Carpeta 01");
+    Carpeta d3 = new Carpeta("Carpeta 03");
+    Carpeta d4 = new Carpeta("Carpeta 02");
     Carpeta d5 = new Carpeta("Carpeta 11");
     Carpeta d6 = new Carpeta("Windows");
     Carpeta d7 = new Carpeta("System32");
@@ -40,6 +40,6 @@ class Main {
     d4.mostrarDirectorio();
     System.out.println("----Carpeta d9----");
     d9.mostrarDirectorio();
+
   }
-  
 }
